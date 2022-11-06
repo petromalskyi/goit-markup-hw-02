@@ -167,18 +167,22 @@ body {
 
 .footer-address {
   color: var(--white-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .footer-link {
   color: var(--footer-link);
+ font-style: normal;
+    font-weight: 400;
+  font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
-/* .site-nav .link:hover, 
-.site-nav .link:focus,
-.contact-nav .link:hover,
-.contact-nav .link:focus {
-    color: var(--accent-color);
-}*/
 .footer-address:hover,
 .footer-address:focus,
 .footer-link:hover,
