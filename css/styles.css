@@ -1,0 +1,144 @@
+:root {
+    --primary-text-color: #757575;
+    --titele-text-color: #212121;
+    --accent-color: #2196F3;
+    --logo-first-color: #000000;
+    --bg-color: #2F303A;
+    --white-text: #FFFFFF;
+    --footer-link: rgba(255, 255, 255, 0.6);
+}
+/*  
+    --black: #212121;
+    --white: #ffffff;
+    --blue: #2196f3;
+    --bluebtn: #188ce8;
+    --grey: #757575;
+    --blackbg: #2f303a;
+    --whitegrey: #f5f4fa;
+*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* a {text-decoration: none;} */
+
+/* ------- HEADER -------- */
+.logo-header {
+    color: var(--logo-first-color);
+    font-family: raleway;
+}
+
+.logo-header:hover,
+.logo-header:focus {
+    color: var(--accent-color);
+}
+ 
+
+.logo-color {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    color: var(--titele-text-color);
+}
+
+.contact-nav .link {
+    color: var(--titele-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.section-title {
+    color: var(--titele-text-color);
+}
+
+.section-text {
+    color: var(--primary-text-color);
+}
+
+/* ----- HERO ------- */
+.hero-section {
+    color: var(--white-text);
+    background-color: var(--bg-color);
+}
+
+.hero-button {
+    color: var(--white-text);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* -----FOOTER----- */
+.footer {
+    background-color: var(--bg-color);
+}
+
+.logo-footer {
+    color: var(--white-text);
+    font-family: raleway;
+}
+
+.logo-footer:hover,
+.logo-footer:focus {
+    color: var(--accent-color);
+}
+
+.footer-address {
+    color: var(--white-text);
+}
+
+.footer-link {
+    color: var(--footer-link);
+}
+
+/* .site-nav .link:hover, 
+.site-nav .link:focus,
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var(--accent-color);
+}*/
+.footer-address:hover,
+.footer-address:focus,
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent-color);
+}
+
+/* --------- PORTFOLIO --------- */
+
+.portfolio-button {
+    background-color: #f5f4fa;
+    cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--white-text);
+    background-color: var(--accent-color);
+}
