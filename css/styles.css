@@ -55,7 +55,7 @@ body {
 }
 
 .contact-nav .link {
-  color: var(--titele-text-color);
+  color: currentColor;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -177,7 +177,6 @@ body {
 .footer-link {
   color: var(--footer-link);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -196,6 +195,10 @@ body {
   background-color: #f5f4fa;
   cursor: pointer;
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .portfolio-button:hover,
@@ -206,7 +209,6 @@ body {
 
 .portfolio-title {
   color: var(--titele-text-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
